@@ -116,15 +116,12 @@ main .who-are-we {
   padding: 50px 10%; }
   main .who-are-we .side-imgs {
     position: relative;
-    width: 50%;
-    height: auto;
-    align-items: flex-start; }
+    width: 50%; }
     @media (max-width: 830px) {
       main .who-are-we .side-imgs {
         width: 100%; } }
     main .who-are-we .side-imgs img {
-      width: 45%;
-      height: fit-content; }
+      width: 45%; }
     main .who-are-we .side-imgs .over-img-container {
       width: 100%;
       position: absolute;

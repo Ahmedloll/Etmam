@@ -142,15 +142,12 @@ main {
     .side-imgs {
       position: relative;
       width: 50%;
-      height: auto;
-      align-items: flex-start;
-
       @media (max-width: 830px) {
         width: 100%;
       }
       img {
         width: 45%;
-        height: fit-content;
+        // height: fit-content;
       }
       .over-img-container {
         width: 100%;
