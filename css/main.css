@@ -117,7 +117,8 @@ main .who-are-we {
   main .who-are-we .side-imgs {
     position: relative;
     width: 50%;
-    height: fit-content; }
+    height: auto;
+    align-items: flex-start; }
     @media (max-width: 830px) {
       main .who-are-we .side-imgs {
         width: 100%; } }

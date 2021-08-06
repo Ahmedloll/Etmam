@@ -142,7 +142,8 @@ main {
     .side-imgs {
       position: relative;
       width: 50%;
-      height: fit-content;
+      height: auto;
+      align-items: flex-start;
 
       @media (max-width: 830px) {
         width: 100%;
