@@ -116,7 +116,8 @@ main .who-are-we {
   padding: 50px 10%; }
   main .who-are-we .side-imgs {
     position: relative;
-    width: 50%; }
+    width: 50%;
+    height: fit-content; }
     @media (max-width: 830px) {
       main .who-are-we .side-imgs {
         width: 100%; } }
