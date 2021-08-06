@@ -15,6 +15,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <title>Etmam</title>
   </head>
   <body>
@@ -30,19 +36,59 @@
           </ul>
         </nav>
       </div>
-      <div class="flex col align">
-        <p class="custom-font">
-          أحصل على فرصتك <br />وحقق حلمك من خلال تطبيقك المميز
-        </p>
-        <p class="light-text">
-          هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
-          النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من
-          النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت
-          تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
-          الفقرات كما تريد
-        </p>
-        <a class="colored-back-link" href="">ابدأ الان</a>
-        <a href="">اتصل بنا</a>
+      <div dir="rtl" class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flex col align">
+              <p class="custom-font">
+                أحصل على فرصتك <br />وحقق حلمك من خلال تطبيقك المميز
+              </p>
+              <p class="light-text">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                العربى زيادة عدد الفقرات كما تريد
+              </p>
+              <a class="colored-back-link" href="">ابدأ الان</a>
+              <a href="">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex col align">
+              <p class="custom-font">
+                أحصل على فرصتك <br />وحقق حلمك من خلال تطبيقك المميز
+              </p>
+              <p class="light-text">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                العربى زيادة عدد الفقرات كما تريد
+              </p>
+              <a class="colored-back-link" href="">ابدأ الان</a>
+              <a href="">اتصل بنا</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex col align">
+              <p class="custom-font">
+                أحصل على فرصتك <br />وحقق حلمك من خلال تطبيقك المميز
+              </p>
+              <p class="light-text">
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+                التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+                العربى زيادة عدد الفقرات كما تريد
+              </p>
+              <a class="colored-back-link" href="">ابدأ الان</a>
+              <a href="">اتصل بنا</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
       </div>
     </header>
     <main>
@@ -196,5 +242,16 @@
         </li>
       </ul>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

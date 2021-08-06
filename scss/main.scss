@@ -162,7 +162,7 @@ main {
           text-align: center;
           width: fit-content;
           margin: 0;
-          span{
+          span {
             font-weight: bold;
             font-size: 20px;
           }
@@ -398,4 +398,15 @@ footer {
       }
     }
   }
+}
+.swiper-container {
+  height: fit-content;
+  padding-bottom: 60px !important;
+}
+.swiper-pagination-bullet{
+  background: white !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active{
+  background: $main-color !important;
 }
