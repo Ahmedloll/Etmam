@@ -83,6 +83,9 @@ header {
             color: white;
             font-size: 16px;
             transition: all ease 1s;
+            &.active {
+              color: $main-color;
+            }
           }
           transition: all ease 1s;
           &:hover {
@@ -91,6 +94,7 @@ header {
               color: $main-color;
             }
           }
+          
         }
       }
       @media (max-width: 560px) {

@@ -72,6 +72,8 @@ header {
             color: white;
             font-size: 16px;
             transition: all ease 1s; }
+            header .nav-wrapper nav ul li a.active {
+              color: #978462; }
           header .nav-wrapper nav ul li:hover {
             transform: scale(1.2); }
             header .nav-wrapper nav ul li:hover a {
