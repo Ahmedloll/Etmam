@@ -63,9 +63,8 @@ textarea {
   color: $brown;
 }
 header {
-  .swiper-wrapper{
+  .swiper-wrapper {
     margin-bottom: 70px;
-
   }
   background: url("../img/Group\ 17@2x.png");
   background-size: cover;
@@ -457,27 +456,33 @@ main {
       align-items: center;
     }
     .swiper-wrapper {
-      height: 25vw;
-      @media (max-width: 900px) {
-        height: 40vw;
+      height: calc(10vw + 140px);
+      @media (max-width: 860px) {
+        height: calc(12vw + 150px);
       }
       @media (max-width: 600px) {
-        height: 60vw;
+        height: calc(20vw + 150px);
+      }
+      @media (max-width: 350px) {
+        height: calc(20vw + 180px);
       }
     }
     .partner {
       padding: 10px;
       img {
         width: 5vw;
+        height: 5vw;
         margin-left: 20px;
         background-color: $brown;
         padding: 20px;
         border-radius: 10px;
         @media (max-width: 860px) {
           width: 6vw;
+          height: 6vw;
         }
         @media (max-width: 600px) {
           width: 10vw;
+          height: 10vw;
         }
       }
     }
@@ -658,7 +663,7 @@ footer {
     ul {
       list-style: initial;
       padding: revert;
-      li{
+      li {
         margin: 5px 0;
       }
     }
